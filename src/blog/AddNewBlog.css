@@ -1,0 +1,30 @@
+.add div {
+  display: flex;
+  margin: 10px;
+}
+
+.add label {
+  flex: 3;
+  font-size: 14pt;
+  margin: 1em;
+}
+
+.add input, .add textarea {
+  font-size: 14pt;
+  padding: 5px;
+  flex: 7;
+}
+
+.add textarea {
+  height: 600px;
+}
+
+.add button {
+  font-size: 30pt;
+  margin: 30px auto;
+  display: block;
+}
+
+.add form {
+  padding: 30px;
+}

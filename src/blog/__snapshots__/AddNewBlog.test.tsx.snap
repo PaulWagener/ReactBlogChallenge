@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddNewBlog /> renders 1`] = `
+<div
+  className="add"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <label>
+        Titel:
+      </label>
+      <input
+        name="title"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label>
+        Content:
+      </label>
+      <textarea
+        name="content"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <div>
+      <label>
+        Tags:
+      </label>
+      <input
+        name="tags"
+        onChange={[Function]}
+        placeholder="tv media foo"
+        value=""
+      />
+    </div>
+    <button
+      onClick={[Function]}
+      type="submit"
+    >
+      Add blog
+    </button>
+  </form>
+</div>
+`;

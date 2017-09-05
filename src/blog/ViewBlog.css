@@ -1,0 +1,9 @@
+.viewblog {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.viewblog .postedDate {
+    font-style: italic;
+    margin: 1.5em;
+}

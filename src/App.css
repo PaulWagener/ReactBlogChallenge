@@ -1,0 +1,17 @@
+.appbar {
+  height: 30vh;
+}
+
+.content {
+  position: relative;
+  top: -10vh;
+  min-height: 50vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bloglist {
+  margin: 5em;
+}
