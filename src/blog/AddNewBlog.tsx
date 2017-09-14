@@ -2,16 +2,17 @@ import * as React from 'react';
 import './AddNewBlog.css';
 import Blog from './Blog';
 
-class AddNewBlog extends React.Component {
-  state: {
-    title: string,
-    content: string,
-    tags: string
-  };
+interface AddNewBlogState {
+  title: string;
+  content: string;
+  tags: string;
+}
 
-  props: {
-    addBlogHandler: (blog: Blog) => void
-  };
+interface AddNewBlogProps {
+  addBlogHandler: (blog: Blog) => void;
+}
+
+class AddNewBlog extends React.Component<AddNewBlogProps, AddNewBlogState> {
 
   constructor() {
     super();
