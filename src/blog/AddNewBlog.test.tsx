@@ -17,15 +17,15 @@ describe('<AddNewBlog />', () => {
     const component = mount(<AddNewBlog addBlogHandler={mockAddBlogHandler} />);
 
     // Fill in form
-    const inputTitle = component.find('input[name="title"]');
+    const inputTitle = component.find('input[name="title"]') as any;
     inputTitle.node.value = 'title';
     inputTitle.simulate('change');
 
-    const inputContent = component.find('textarea[name="content"]');
+    const inputContent = component.find('textarea[name="content"]') as any;
     inputContent.node.value = 'content';
     inputContent.simulate('change');
 
-    const inputTags = component.find('input[name="tags"]');
+    const inputTags = component.find('input[name="tags"]') as any;
     inputTags.node.value = 'tag1 tag2';
     inputTags.simulate('change');
 

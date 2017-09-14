@@ -53,7 +53,7 @@ class AddNewBlog extends React.Component<AddNewBlogProps, AddNewBlogState> {
   render() {
     return (
       <div className="add">
-        <form onSubmit={this.handleSubmit} ref="form">
+        <form onSubmit={this.handleSubmit}>
           <div>
             <label>Titel:</label>
             <input type="text" name="title" value={this.state.title} onChange={this.handleInputChange}/>
@@ -61,7 +61,7 @@ class AddNewBlog extends React.Component<AddNewBlogProps, AddNewBlogState> {
 
           <div>
             <label>Content:</label>
-            <textarea name="content" value={this.state.content} onChange={this.handleInputChange} ref="content"/>
+            <textarea name="content" value={this.state.content} onChange={this.handleInputChange}/>
           </div>
 
           <div>
@@ -71,11 +71,10 @@ class AddNewBlog extends React.Component<AddNewBlogProps, AddNewBlogState> {
               placeholder="tv media foo"
               value={this.state.tags}
               onChange={this.handleInputChange}
-              ref="tags"
             />
           </div>
 
-          <button type="submit" ref="submit">Add blog</button>
+          <button type="submit">Add blog</button>
         </form>
       </div>
     );
