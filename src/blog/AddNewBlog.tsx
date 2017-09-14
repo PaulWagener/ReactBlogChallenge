@@ -25,15 +25,15 @@ class AddNewBlog extends React.Component<AddNewBlogProps, AddNewBlogState> {
     this.handleInputChange = this.handleInputChange.bind(this);
   }
 
-  handleInputChange(event: any) {
-    const name = event.target.name;
+  handleInputChange(event: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>) {
+    const name = event.currentTarget.name;
 
-    this.setState({
-      [name]: event.target.value
-    });
+    const data = {};
+    data[name] = event.currentTarget.value;
+    this.setState(data);
   }
 
-  handleSubmit(event: any) {
+  handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     let blog = new Blog();
     blog.id = Math.round(Math.random() * 100000);
     blog.title = this.state.title;
@@ -66,7 +66,13 @@ class AddNewBlog extends React.Component<AddNewBlogProps, AddNewBlogState> {
 
           <div>
             <label>Tags:</label>
-            <input name="tags" placeholder="tv media foo" value={this.state.tags} onChange={this.handleInputChange} ref="tags"/>
+            <input
+              name="tags"
+              placeholder="tv media foo"
+              value={this.state.tags}
+              onChange={this.handleInputChange}
+              ref="tags"
+            />
           </div>
 
           <button type="submit" ref="submit">Add blog</button>
