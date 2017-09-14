@@ -16,7 +16,7 @@ blog2.posted = new Date(2017, 9, 4);
 blog2.content = 'A hearty hello to the world!';
 
 const blog3 = new Blog();
-blog3.id = 2;
+blog3.id = 3;
 blog3.title = 'Third blogpost';
 blog3.tags = ['charm', 'shipsright'];
 blog3.posted = new Date(2017, 9, 3);
