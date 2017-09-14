@@ -1,7 +1,8 @@
 import * as React from 'react';
 import {
     BrowserRouter as Router,
-    Route
+    Route,
+    RouteComponentProps
   } from 'react-router-dom';
 
 import Menu from './Menu';
@@ -56,7 +57,7 @@ class Index extends React.Component {
           <Route exact={true} path="/add" component={() => (<AddNewBlog addBlogHandler={this.addBlog.bind(this)}/>)}/>
           <Route
             path="/blog/:blogId"
-            component={(props: any) => {
+            component={(props: RouteComponentProps<{blogId: number}>) => {
               const blogId = +props.match.params.blogId;
               const blog = self.state.blogs.filter(b => b.id === blogId)[0];
               return (<ViewBlog blog={blog}/>);
