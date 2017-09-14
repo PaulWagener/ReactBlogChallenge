@@ -41,7 +41,7 @@ class List extends React.Component {
                     </div>
                   </TableCell>
                   <TableCell>
-                    <Button raised color="primary" onClick={() => this.props.deleteHandler(i)}>Delete</Button>
+                    <Button raised={true} color="primary" onClick={() => this.props.deleteHandler(i)}>Delete</Button>
                   </TableCell>
                 </TableRow>
               );
