@@ -1,30 +1,36 @@
 // Link.react-test.js
 import * as React from 'react';
-import * as TestUtils from 'react-dom/test-utils'
+// import * as TestUtils from 'react-dom/test-utils'
 import AddNewBlog from './AddNewBlog';
 import Blog from './Blog';
+import { mount, render } from 'enzyme';
 
 describe('<AddNewBlog />', () => {
   it('renders', () => {
-    expect(TestUtils.createRenderer().render(
+    expect(render(
       <AddNewBlog addBlogHandler={() => {}} />
     )).toMatchSnapshot()
   });
 
   it('Calls addBlogHandler', () => {
     const mockAddBlogHandler = jest.fn();
-    const component = TestUtils.renderIntoDocument(<AddNewBlog addBlogHandler={mockAddBlogHandler} />) as AddNewBlog;
+    const component = mount(<AddNewBlog addBlogHandler={mockAddBlogHandler} />);
 
     // Fill in form
-    (component.refs.title as HTMLInputElement).value = 'title';
-    TestUtils.Simulate.change(component.refs.title);
-    (component.refs.content as HTMLTextAreaElement).value = 'content';
-    TestUtils.Simulate.change(component.refs.content);
-    (component.refs.tags as HTMLInputElement).value = 'tag1 tag2';
-    TestUtils.Simulate.change(component.refs.tags);
+    const inputTitle = component.find('input[name="title"]');
+    inputTitle.node.value = 'title';
+    inputTitle.simulate('change');
+
+    const inputContent = component.find('textarea[name="content"]');
+    inputContent.node.value = 'content';
+    inputContent.simulate('change');
+
+    const inputTags = component.find('input[name="tags"]');
+    inputTags.node.value = 'tag1 tag2';
+    inputTags.simulate('change');
 
     // Submit form
-    TestUtils.Simulate.submit(component.refs.form);
+    component.find('form').simulate('submit');
 
     // Check call to addBlogHandler
     expect(mockAddBlogHandler).toBeCalled();

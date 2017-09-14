@@ -56,7 +56,7 @@ class AddNewBlog extends React.Component<AddNewBlogProps, AddNewBlogState> {
         <form onSubmit={this.handleSubmit} ref="form">
           <div>
             <label>Titel:</label>
-            <input type="text" name="title" value={this.state.title} onChange={this.handleInputChange} ref="title"/>
+            <input type="text" name="title" value={this.state.title} onChange={this.handleInputChange}/>
           </div>
 
           <div>

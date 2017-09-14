@@ -1,50 +1,911 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<AddNewBlog /> renders 1`] = `
-<div
-  className="add"
->
-  <form
-    onSubmit={[Function]}
-  >
-    <div>
-      <label>
-        Titel:
-      </label>
-      <input
-        name="title"
-        onChange={[Function]}
-        type="text"
-        value=""
-      />
-    </div>
-    <div>
-      <label>
-        Content:
-      </label>
-      <textarea
-        name="content"
-        onChange={[Function]}
-        value=""
-      />
-    </div>
-    <div>
-      <label>
-        Tags:
-      </label>
-      <input
-        name="tags"
-        onChange={[Function]}
-        placeholder="tv media foo"
-        value=""
-      />
-    </div>
-    <button
-      onClick={[Function]}
-      type="submit"
-    >
-      Add blog
-    </button>
-  </form>
-</div>
+initialize {
+  "0": Object {
+    "attribs": Object {},
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "add",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {},
+            "children": Array [
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "data": "Titel:",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "label",
+                    "next": Object {
+                      "attribs": Object {
+                        "name": "title",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "children": Array [],
+                      "name": "input",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  Object {
+                    "attribs": Object {
+                      "name": "title",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "children": Array [],
+                    "name": "input",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "Titel:",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "label",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "Content:",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "label",
+                      "next": Object {
+                        "attribs": Object {
+                          "name": "content",
+                        },
+                        "children": Array [],
+                        "name": "textarea",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    Object {
+                      "attribs": Object {
+                        "name": "content",
+                      },
+                      "children": Array [],
+                      "name": "textarea",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "Content:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "Tags:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "next": Object {
+                          "attribs": Object {
+                            "name": "tags",
+                            "placeholder": "tv media foo",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      Object {
+                        "attribs": Object {
+                          "name": "tags",
+                          "placeholder": "tv media foo",
+                          "value": "",
+                        },
+                        "children": Array [],
+                        "name": "input",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {},
+                          "children": Array [
+                            Object {
+                              "data": "Tags:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": Object {
+                      "attribs": Object {
+                        "type": "submit",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Add blog",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "data": "Content:",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "label",
+                    "next": Object {
+                      "attribs": Object {
+                        "name": "content",
+                      },
+                      "children": Array [],
+                      "name": "textarea",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  Object {
+                    "attribs": Object {
+                      "name": "content",
+                    },
+                    "children": Array [],
+                    "name": "textarea",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "Content:",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "label",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "Tags:",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "label",
+                      "next": Object {
+                        "attribs": Object {
+                          "name": "tags",
+                          "placeholder": "tv media foo",
+                          "value": "",
+                        },
+                        "children": Array [],
+                        "name": "input",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    Object {
+                      "attribs": Object {
+                        "name": "tags",
+                        "placeholder": "tv media foo",
+                        "value": "",
+                      },
+                      "children": Array [],
+                      "name": "input",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "Tags:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": Object {
+                    "attribs": Object {
+                      "type": "submit",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Add blog",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "Titel:",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "label",
+                      "next": Object {
+                        "attribs": Object {
+                          "name": "title",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "children": Array [],
+                        "name": "input",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    Object {
+                      "attribs": Object {
+                        "name": "title",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "children": Array [],
+                      "name": "input",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "Titel:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {},
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "data": "Tags:",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "label",
+                    "next": Object {
+                      "attribs": Object {
+                        "name": "tags",
+                        "placeholder": "tv media foo",
+                        "value": "",
+                      },
+                      "children": Array [],
+                      "name": "input",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  Object {
+                    "attribs": Object {
+                      "name": "tags",
+                      "placeholder": "tv media foo",
+                      "value": "",
+                    },
+                    "children": Array [],
+                    "name": "input",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "Tags:",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "label",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                ],
+                "name": "div",
+                "next": Object {
+                  "attribs": Object {
+                    "type": "submit",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Add blog",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "Content:",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "label",
+                      "next": Object {
+                        "attribs": Object {
+                          "name": "content",
+                        },
+                        "children": Array [],
+                        "name": "textarea",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    Object {
+                      "attribs": Object {
+                        "name": "content",
+                      },
+                      "children": Array [],
+                      "name": "textarea",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "Content:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "Titel:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "next": Object {
+                          "attribs": Object {
+                            "name": "title",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      Object {
+                        "attribs": Object {
+                          "name": "title",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "children": Array [],
+                        "name": "input",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {},
+                          "children": Array [
+                            Object {
+                              "data": "Titel:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+              Object {
+                "attribs": Object {
+                  "type": "submit",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Add blog",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {},
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "data": "Tags:",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "label",
+                      "next": Object {
+                        "attribs": Object {
+                          "name": "tags",
+                          "placeholder": "tv media foo",
+                          "value": "",
+                        },
+                        "children": Array [],
+                        "name": "input",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    Object {
+                      "attribs": Object {
+                        "name": "tags",
+                        "placeholder": "tv media foo",
+                        "value": "",
+                      },
+                      "children": Array [],
+                      "name": "input",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "Tags:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      "type": "tag",
+                    },
+                  ],
+                  "name": "div",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "data": "Content:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "next": Object {
+                          "attribs": Object {
+                            "name": "content",
+                          },
+                          "children": Array [],
+                          "name": "textarea",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                      },
+                      Object {
+                        "attribs": Object {
+                          "name": "content",
+                        },
+                        "children": Array [],
+                        "name": "textarea",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {},
+                          "children": Array [
+                            Object {
+                              "data": "Content:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                        "type": "tag",
+                      },
+                    ],
+                    "name": "div",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [
+                            Object {
+                              "data": "Titel:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "next": Object {
+                            "attribs": Object {
+                              "name": "title",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                        },
+                        Object {
+                          "attribs": Object {
+                            "name": "title",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {},
+                            "children": Array [
+                              Object {
+                                "data": "Titel:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                          },
+                          "type": "tag",
+                        },
+                      ],
+                      "name": "div",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                    },
+                    "type": "tag",
+                  },
+                  "type": "tag",
+                },
+                "type": "tag",
+              },
+            ],
+            "name": "form",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+          },
+        ],
+        "name": "div",
+        "next": null,
+        "parent": null,
+        "prev": null,
+        "root": [Circular],
+        "type": "tag",
+      },
+    ],
+    "name": "root",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "type": "root",
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xmlMode": false,
+  },
+}
 `;
